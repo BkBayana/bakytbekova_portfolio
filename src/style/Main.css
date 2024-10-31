@@ -129,7 +129,8 @@ body {
     height: 200px;
   }
   .sectionBlockText{
-    width: 400px;
+    margin-top: 50px;
+    width: 370px;
   }
   .sectionsubtitle {
     font-size: calc(14px + 1vw);
@@ -145,6 +146,11 @@ body {
 }
 
 @media (max-width: 430px) {
+  .mainTitle{
+    margin-top: 30px; 
+    margin-left: 60px;
+    font-size: 25px;
+  }
   .headerMenu {
     display: none;
     position: fixed;
