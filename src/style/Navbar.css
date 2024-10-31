@@ -3,20 +3,24 @@
     display: flex;
     justify-content: center;
 }
-.headerContainer{
-    background-color: white;
-}
 .photo{
-    width: 500px;
-    height: 380px;
+    width: 360px;
+    height: 250px;
 }
 .photo:hover{
     transition: 1s;
     transform: scale(1.1);
 }
 .projectsImage{
+    background-color: var(--primery);
     padding-top: 70px;
     display: flex;
     justify-content: center;
     column-gap: 30px;
+}
+@media (max-width:430px) {
+    .projectsImage{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

@@ -6,7 +6,8 @@
   align-items: center;
   justify-content: center;
   row-gap: 30px;
-  background-image: radial-gradient(circle, rgb(24, 24, 24) 10%, rgb(56, 56, 57) 30%, rgb(143, 126, 147) 60%, rgb(185, 180, 180) 90%);
+  background-color: black;
+  /* background-image: radial-gradient(circle, rgb(24, 24, 24) 10%, rgb(56, 56, 57) 30%, rgb(143, 126, 147) 60%, rgb(185, 180, 180) 90%); */
 
 }
 .title {
