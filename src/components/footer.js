@@ -10,7 +10,7 @@ function Footer(){
       <footer className='footerContainer'>
       <div className='socialMedia'>
         <div className='footerContent'>
-          <Link to='/main'><img src={logo} alt="Project Logo" className='logo' /></Link>
+          <Link to='/'><img src={logo} alt="Project Logo" className='logo' /></Link>
           <h1 className='footerTitle'>Made by Bakytbekova Bayana</h1>
         </div>
         <div className='socialMediaIcons'>

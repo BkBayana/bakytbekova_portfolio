@@ -1,10 +1,11 @@
+
 import React, { useEffect, useState } from 'react'; 
 import '../style/Main.css';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import aboutPhoto from '../assets/portfolioPict.svg';
+import aboutPhoto from '../assets/mainp.jpg';
 
 function Main() {
   useEffect(() => {

@@ -29,21 +29,22 @@ function Navbar() {
           ☰
         </button>
         <nav className={`headerMenu ${isMenuOpen ? 'open' : ''}`}>
-          <ul className='headerMenu'>
+          <ul className='headerMenuList'>
             <li><Link to="/" onClick={toggleMenu}>MAIN</Link></li>
             <li><Link to="/about" onClick={toggleMenu}>ABOUT</Link></li>
             <li><Link to="/projects" onClick={toggleMenu}>PROJECTS</Link></li>
+            <li className="menuThemeSwitch">
+              <label className="themeSwitch">
+                <input type="checkbox" checked={isDarkTheme} onChange={toggleTheme} />
+                <span className="slider"></span>
+              </label>
+            </li>
           </ul>
         </nav>
-
-        {/* Переключатель темы */}
-        <label className="themeSwitch">
-          <input type="checkbox" checked={isDarkTheme} onChange={toggleTheme} />
-          <span className="slider"></span>
-        </label>
       </div>
       {isMenuOpen && <div className="overlay" onClick={toggleMenu}></div>}
     </div>
   );
 }
+
 export default Navbar;
